@@ -70,7 +70,7 @@ header {
 }
 
 .datos-1 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 480;
   margin: 10px 10px 10px 0;
   list-style-type: none;
@@ -78,7 +78,7 @@ header {
 }
 
 .datos-2 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 480;
   list-style-type: none;
   line-height: 30px;
@@ -98,7 +98,7 @@ span{
 }
 
 .parte-3 p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   margin: 7px;
   color: #323232;
@@ -113,7 +113,7 @@ span{
 }
 
 .parte-5 p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   margin: 10px 0 0 0;
 }
@@ -125,7 +125,7 @@ span{
 }
 
 .parte-4 p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   color: #323232;
   margin: 5px 0 5px 0;
@@ -138,7 +138,7 @@ span{
 
 .parte-6 h2 {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 
