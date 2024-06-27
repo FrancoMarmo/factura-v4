@@ -125,107 +125,149 @@ header{
     font-weight: 500;
     color: #323232;
     margin:  5px 30px 5px 25px;
+    text-decoration: underline;
   }
 
   .parte-4 p span{
+    text-decoration: none;
     font-weight: 600;
   }
 
-  .parte-6{
-    padding-bottom: 15px;
-    border-bottom: 1px solid #8FEFDC;
-  }
-
-  .i-1 p{
-    font-size: 15px;
-    font-weight: 600;
-    text-align: start;
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-
-  .i-2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  .parte-6 h2{
     margin-top: 10px;
     margin-left: 30px;
-    margin-right: 30px;
-  }
-
-  .pagofacil{
-    margin-left: -50px;
-    width: 100px;
-  }
-  
-  .rapipago{
-    margin-left: -60px;
-    width: 130px;
-  }
-
-  .mercadopago{
-    margin-left: -60px;
-    width: 100px;
-  }
-
-  .pagomis{
-    margin-left: -60px;
-    width: 100px;
-  }
-
-  .i-3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 25px;
-  }
-
-  .i-3 img{
-    margin-top: 5px;
-    width: 350px;
-  }
-
-  .cuit{
-    margin-top: 10px;
-    padding: 5px;
-    text-align: center;
-  }
-
-  .i-5{
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 30px;
-    border: 2px dotted #8FEFDC;
-    padding: 5px;
-  }
-
-
-  .parte-7{
-    display: flex;
-  }
-  
-  .qr-section img{
-    margin-top: 10px;
-    margin-left: 30px;
-    width: 15vw;
-    height: auto;
-  }
-  
-  .cae{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 20px;
-    color: #323232;
+    font-size: 18px;
     font-weight: 500;
   }
 
-  .cae img{
-    line-height: -100px;
-    width: 95px;
+  .parte-6 p{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 2px;
+    border: 2px dashed #8FEFDC;
+  }
+
+  .pago-facil{
+    width: 90px;
+  }
+
+  .rapi-pago{
+    width: 110px;
+  }
+
+  .mercado-pago{
+    width: 90px;
+  }
+
+  .cod-barras{
+    width: 270px;
+  }
+
+
+  .cbu-section h2{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .cbu-section-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    border: 2px dashed #8FEFDC;
+    padding: 8px;
+  }
+
+  .cbu-section-2 p{
+    font-size: 20px;
+    font-weight: 550;
+    margin-right: 50px;
+  }
+
+  .pago-mis{
+    width: 110px;
+  }
+
+  .cards h2{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .cards-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    border: 2px dashed #8FEFDC;
+    padding: 8px;
+  }
+
+  .visa{
+    height: 50px;
+    width: 100px;
+  }
+
+  .visa-debit{
+    height: 50px;
+    width: 100px;
+  }
+
+  .mastercard{
+    height: 50px;
+    width: 100px;
+  }
+
+  .master-debit{
+    height: 50px;
+    width: 100px;
+  }
+
+
+  .factura-vencimiento{
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 2px dashed #8FEFDC;
+  }
+
+  .factura-vencimiento h2{
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+
+  .qr-section{
+    font-size: 15px;
+    line-height: 30px;
+    gap: 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .qr{
+    width: 150px;
+  }
+
+  .cae-section{
+    flex-direction: column;
+  }
+
+  .afip{
+    width: 150px;
+  }
+
+  .bp-logo{
+    width: 80px;
   }
