@@ -85,6 +85,11 @@ header {
   margin: 10px 10px 10px 0;
 }
 
+span{
+  font-weight: 400;
+  color: rgb(173, 171, 171);
+}
+
 .parte-3 {
   display: flex;
   justify-content: space-between;
