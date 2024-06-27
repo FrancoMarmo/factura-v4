@@ -1,273 +1,266 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 1px solid #8FEFDC;
-    width: 100%;
-  }
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #8fefdc;
+  width: 100%;
+}
 
-  .items-1{
-    margin: 8px;
-  }
-  
-  .items-1 p{
-    font-size: 13px;
-    font-weight: 400;
-    color: #303030;
-  }
-  
-  .logo{
-    width: 30vw;
-    height: auto;
-    margin-bottom: 5px;
-  }
-  
-  .items-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-  }
+.items-1 {
+  margin: 8px;
+}
 
-  .items-2 img{
-    width: 60px;
-  }
-  
-  .items-3{
-    margin: 8px;
-  }
-  
-  .items-3 h2{
-    font-size: 20px;
-    font-weight: 500;
-    color: #323232;
-    line-height: 25px;
-  }
-  
-  .items-3 p{
-    font-size: 15px;
-    font-weight: 400;
-    color: #303030;
-    line-height: 20px;
-  }
+.items-1 p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #303030;
+}
 
+.logo {
+  width: 30vw;
+  height: auto;
+  margin-bottom: 5px;
+}
 
-  .parte-2{
-    display: flex;
-    justify-content: space-between;
-    border-top: none;
-    border-bottom: 1px solid #8FEFDC;
-  }
-  
-  .datos-1{
-    font-size: 18px;
-    font-weight: 500;
-    margin: 10px 10px 10px 30px;
-    list-style-type: none;
-    line-height: 30px;
-  }
-  
-  .datos-2{
-    font-size: 18px;
-    font-weight: 500;
-    list-style-type: none;
-    line-height: 30px;
-    margin: 10px 10px 10px 30px;
-  }
+.items-2 {
+  display: flex;
+  align-items: center;
+  margin-top: 39px;
 
-  .parte-3{
-    display: flex;
-    justify-content: space-between;
-    border-top: none;
-    border-bottom: 1px solid #8FEFDC;
+  margin-bottom: 1px;
+}
 
-  }
-  
-  .parte-3 p{
-    font-size: 15px;
-    font-weight: 600;
-    margin: 7px;
-    color: #323232;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
+.items-2 img {
+  width: 60px;
+}
 
+.items-3 {
+  margin: 8px;
+}
 
-  .parte-5{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #8FEFDC;
-    padding-bottom: 20px;
-  }
-  
-  .parte-5 p{
-    font-size: 18px;
-    line-height: 25px;
-    margin: 10px 30px 0 25px;
-  }
+.items-3 h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #323232;
+  line-height: 25px;
+}
 
+.items-3 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #303030;
+  line-height: 20px;
+}
 
-  .parte-4{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #8FEFDC;
-  }
-  
-  .parte-4 p{
-    font-size: 15px;
-    font-weight: 500;
-    color: #323232;
-    margin:  5px 30px 5px 25px;
-    text-decoration: underline;
-  }
+.parte-2 {
+  display: flex;
+  justify-content: space-between;
+  border-top: none;
+  border-bottom: 1px solid #8fefdc;
+}
 
-  .parte-4 p span{
-    text-decoration: none;
-    font-weight: 600;
-  }
+.datos-1 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 10px 10px 30px;
+  list-style-type: none;
+  line-height: 30px;
+}
 
-  .parte-6 h2{
-    margin-top: 10px;
-    margin-left: 30px;
-    font-size: 18px;
-    font-weight: 500;
-  }
+.datos-2 {
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: none;
+  line-height: 30px;
+  margin: 10px 10px 10px 30px;
+}
 
-  .parte-6 p{
-    margin-top: 10px;
-    margin-left: 30px;
-  }
+.parte-3 {
+  display: flex;
+  justify-content: space-between;
+  border-top: none;
+  border-bottom: 1px solid #8fefdc;
+}
 
-  .logos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 30px;
-    padding: 2px;
-    border: 2px dashed #8FEFDC;
-  }
+.parte-3 p {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 7px;
+  color: #323232;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
-  .pago-facil{
-    width: 90px;
-  }
+.parte-5 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #8fefdc;
+  padding-bottom: 20px;
+}
 
-  .rapi-pago{
-    width: 110px;
-  }
+.parte-5 p {
+  font-size: 18px;
+  line-height: 25px;
+  margin: 10px 30px 0 25px;
+}
 
-  .mercado-pago{
-    width: 90px;
-  }
+.parte-4 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #8fefdc;
+}
 
-  .cod-barras{
-    width: 270px;
-  }
+.parte-4 p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #323232;
+  margin: 5px 30px 5px 25px;
+}
 
+.parte-4 p span {
+  text-decoration: none;
+  font-weight: 600;
+}
 
-  .cbu-section h2{
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-weight: 400;
-    font-size: 15px;
-  }
+.parte-6 h2 {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
 
-  .cbu-section-2{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 30px;
-    border: 2px dashed #8FEFDC;
-    padding: 8px;
-  }
+.parte-6 p {
+  margin-top: 10px;
+  margin-left: 30px;
+}
 
-  .cbu-section-2 p{
-    font-size: 20px;
-    font-weight: 550;
-    margin-right: 50px;
-  }
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 2px;
+  border: 2px dashed #8fefdc;
+}
 
-  .pago-mis{
-    width: 110px;
-  }
+.pago-facil {
+  width: 90px;
+}
 
-  .cards h2{
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-weight: 400;
-    font-size: 15px;
-  }
+.rapi-pago {
+  width: 110px;
+}
 
-  .cards-section{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 30px;
-    border: 2px dashed #8FEFDC;
-    padding: 8px;
-  }
+.mercado-pago {
+  width: 90px;
+}
 
-  .visa{
-    height: 50px;
-    width: 100px;
-  }
+.cod-barras {
+  width: 270px;
+}
 
-  .visa-debit{
-    height: 50px;
-    width: 100px;
-  }
+.cbu-section h2 {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 15px;
+}
 
-  .mastercard{
-    height: 50px;
-    width: 100px;
-  }
+.cbu-section-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  border: 2px dashed #8fefdc;
+  padding: 8px;
+}
 
-  .master-debit{
-    height: 50px;
-    width: 100px;
-  }
+.cbu-section-2 p {
+  font-size: 20px;
+  font-weight: 550;
+  margin-right: 50px;
+}
 
+.pago-mis {
+  width: 110px;
+}
 
-  .factura-vencimiento{
-    margin-left: 30px;
-    margin-top: 10px;
-    border: 2px dashed #8FEFDC;
-  }
+.cards h2 {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 15px;
+}
 
-  .factura-vencimiento h2{
-    font-size: 15px;
-    font-weight: 500;
-  }
+.cards-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  border: 2px dashed #8fefdc;
+  padding: 8px;
+}
 
+.visa {
+  height: 50px;
+  width: 100px;
+}
 
-  .qr-section{
-    font-size: 15px;
-    line-height: 30px;
-    gap: 10px;
-    display: flex;
-    margin-top: 20px;
-    margin-left: 30px;
-  }
+.visa-debit {
+  height: 50px;
+  width: 100px;
+}
 
-  .qr{
-    width: 150px;
-  }
+.mastercard {
+  height: 50px;
+  width: 100px;
+}
 
-  .cae-section{
-    flex-direction: column;
-  }
+.master-debit {
+  height: 50px;
+  width: 100px;
+}
 
-  .afip{
-    width: 150px;
-  }
+.factura-vencimiento {
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 2px dashed #8fefdc;
+}
 
-  .bp-logo{
-    width: 80px;
-  }
+.factura-vencimiento h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.qr-section {
+  font-size: 15px;
+  line-height: 30px;
+  gap: 10px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.qr {
+  width: 150px;
+}
+
+.cae-section {
+  flex-direction: column;
+}
+
+.afip {
+  width: 150px;
+}
+
+.bp-logo {
+  width: 80px;
+}
